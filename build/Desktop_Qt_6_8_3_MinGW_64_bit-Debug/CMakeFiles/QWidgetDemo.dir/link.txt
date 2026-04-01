@@ -1,0 +1,3 @@
+D:\pytorch\envs\pytorch\Lib\site-packages\cmake\data\bin\cmake.exe -E rm -f CMakeFiles\QWidgetDemo.dir/objects.a
+D:\QT\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\QWidgetDemo.dir/objects.a @CMakeFiles\QWidgetDemo.dir\objects1.rsp
+D:\QT\Tools\mingw1310_64\bin\g++.exe -DQT_QML_DEBUG -g -mwindows -Wl,--whole-archive CMakeFiles\QWidgetDemo.dir/objects.a -Wl,--no-whole-archive -o QWidgetDemo.exe -Wl,--out-implib,libQWidgetDemo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\QWidgetDemo.dir\linkLibs.rsp

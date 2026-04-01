@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+2cdfebdf84221c77e09f5151121b22f7 CMakeFiles/QWidgetDemo_autogen
+48c77455cfe501a92a34fc18a6340ed6 QWidgetDemo_autogen/timestamp
