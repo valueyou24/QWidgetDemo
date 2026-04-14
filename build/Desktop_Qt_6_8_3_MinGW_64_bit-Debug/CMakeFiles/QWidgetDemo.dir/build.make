@@ -116,11 +116,43 @@ CMakeFiles/QWidgetDemo.dir/mywidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QWidgetDemo.dir/mywidget.cpp.s"
 	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git\QT_Projects\QWidgetDemo\mywidget.cpp -o CMakeFiles\QWidgetDemo.dir\mywidget.cpp.s
 
+CMakeFiles/QWidgetDemo.dir/fontform.cpp.obj: CMakeFiles/QWidgetDemo.dir/flags.make
+CMakeFiles/QWidgetDemo.dir/fontform.cpp.obj: CMakeFiles/QWidgetDemo.dir/includes_CXX.rsp
+CMakeFiles/QWidgetDemo.dir/fontform.cpp.obj: D:/Git/QT_Projects/QWidgetDemo/fontform.cpp
+CMakeFiles/QWidgetDemo.dir/fontform.cpp.obj: CMakeFiles/QWidgetDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/QWidgetDemo.dir/fontform.cpp.obj"
+	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QWidgetDemo.dir/fontform.cpp.obj -MF CMakeFiles\QWidgetDemo.dir\fontform.cpp.obj.d -o CMakeFiles\QWidgetDemo.dir\fontform.cpp.obj -c D:\Git\QT_Projects\QWidgetDemo\fontform.cpp
+
+CMakeFiles/QWidgetDemo.dir/fontform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QWidgetDemo.dir/fontform.cpp.i"
+	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git\QT_Projects\QWidgetDemo\fontform.cpp > CMakeFiles\QWidgetDemo.dir\fontform.cpp.i
+
+CMakeFiles/QWidgetDemo.dir/fontform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QWidgetDemo.dir/fontform.cpp.s"
+	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git\QT_Projects\QWidgetDemo\fontform.cpp -o CMakeFiles\QWidgetDemo.dir\fontform.cpp.s
+
+CMakeFiles/QWidgetDemo.dir/colorform.cpp.obj: CMakeFiles/QWidgetDemo.dir/flags.make
+CMakeFiles/QWidgetDemo.dir/colorform.cpp.obj: CMakeFiles/QWidgetDemo.dir/includes_CXX.rsp
+CMakeFiles/QWidgetDemo.dir/colorform.cpp.obj: D:/Git/QT_Projects/QWidgetDemo/colorform.cpp
+CMakeFiles/QWidgetDemo.dir/colorform.cpp.obj: CMakeFiles/QWidgetDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/QWidgetDemo.dir/colorform.cpp.obj"
+	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QWidgetDemo.dir/colorform.cpp.obj -MF CMakeFiles\QWidgetDemo.dir\colorform.cpp.obj.d -o CMakeFiles\QWidgetDemo.dir\colorform.cpp.obj -c D:\Git\QT_Projects\QWidgetDemo\colorform.cpp
+
+CMakeFiles/QWidgetDemo.dir/colorform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QWidgetDemo.dir/colorform.cpp.i"
+	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git\QT_Projects\QWidgetDemo\colorform.cpp > CMakeFiles\QWidgetDemo.dir\colorform.cpp.i
+
+CMakeFiles/QWidgetDemo.dir/colorform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QWidgetDemo.dir/colorform.cpp.s"
+	D:\QT\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git\QT_Projects\QWidgetDemo\colorform.cpp -o CMakeFiles\QWidgetDemo.dir\colorform.cpp.s
+
 # Object files for target QWidgetDemo
 QWidgetDemo_OBJECTS = \
 "CMakeFiles/QWidgetDemo.dir/QWidgetDemo_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/QWidgetDemo.dir/main.cpp.obj" \
-"CMakeFiles/QWidgetDemo.dir/mywidget.cpp.obj"
+"CMakeFiles/QWidgetDemo.dir/mywidget.cpp.obj" \
+"CMakeFiles/QWidgetDemo.dir/fontform.cpp.obj" \
+"CMakeFiles/QWidgetDemo.dir/colorform.cpp.obj"
 
 # External object files for target QWidgetDemo
 QWidgetDemo_EXTERNAL_OBJECTS =
@@ -128,6 +160,8 @@ QWidgetDemo_EXTERNAL_OBJECTS =
 QWidgetDemo.exe: CMakeFiles/QWidgetDemo.dir/QWidgetDemo_autogen/mocs_compilation.cpp.obj
 QWidgetDemo.exe: CMakeFiles/QWidgetDemo.dir/main.cpp.obj
 QWidgetDemo.exe: CMakeFiles/QWidgetDemo.dir/mywidget.cpp.obj
+QWidgetDemo.exe: CMakeFiles/QWidgetDemo.dir/fontform.cpp.obj
+QWidgetDemo.exe: CMakeFiles/QWidgetDemo.dir/colorform.cpp.obj
 QWidgetDemo.exe: CMakeFiles/QWidgetDemo.dir/build.make
 QWidgetDemo.exe: D:/QT/6.8.3/mingw_64/lib/libQt6Widgets.a
 QWidgetDemo.exe: D:/QT/6.8.3/mingw_64/lib/libQt6Gui.a
@@ -136,7 +170,7 @@ QWidgetDemo.exe: D:/QT/6.8.3/mingw_64/lib/libQt6EntryPoint.a
 QWidgetDemo.exe: CMakeFiles/QWidgetDemo.dir/linkLibs.rsp
 QWidgetDemo.exe: CMakeFiles/QWidgetDemo.dir/objects1.rsp
 QWidgetDemo.exe: CMakeFiles/QWidgetDemo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable QWidgetDemo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable QWidgetDemo.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\QWidgetDemo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

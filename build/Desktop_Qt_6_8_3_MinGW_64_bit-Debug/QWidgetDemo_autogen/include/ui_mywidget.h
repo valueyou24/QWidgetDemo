@@ -71,11 +71,13 @@ public:
         verticalLayout_8 = new QVBoxLayout(MyWidget);
         verticalLayout_8->setObjectName("verticalLayout_8");
         verticalLayout_3 = new QVBoxLayout();
+        verticalLayout_3->setSpacing(0);
         verticalLayout_3->setObjectName("verticalLayout_3");
         label = new QLabel(MyWidget);
         label->setObjectName("label");
         QFont font1;
         font1.setPointSize(14);
+        font1.setBold(true);
         label->setFont(font1);
 
         verticalLayout_3->addWidget(label);
@@ -132,6 +134,7 @@ public:
         verticalLayout_8->addLayout(verticalLayout_3);
 
         verticalLayout_5 = new QVBoxLayout();
+        verticalLayout_5->setSpacing(0);
         verticalLayout_5->setObjectName("verticalLayout_5");
         label_2 = new QLabel(MyWidget);
         label_2->setObjectName("label_2");
@@ -154,7 +157,9 @@ public:
 
         btnGetWindowsGeometry = new QPushButton(frame_2);
         btnGetWindowsGeometry->setObjectName("btnGetWindowsGeometry");
-        btnGetWindowsGeometry->setFont(font1);
+        QFont font2;
+        font2.setPointSize(14);
+        btnGetWindowsGeometry->setFont(font2);
 
         horizontalLayout_3->addWidget(btnGetWindowsGeometry);
 
@@ -165,13 +170,13 @@ public:
         horizontalLayout_2->setObjectName("horizontalLayout_2");
         btnResize = new QPushButton(frame_2);
         btnResize->setObjectName("btnResize");
-        btnResize->setFont(font1);
+        btnResize->setFont(font2);
 
         horizontalLayout_2->addWidget(btnResize);
 
         pushButton_3 = new QPushButton(frame_2);
         pushButton_3->setObjectName("pushButton_3");
-        pushButton_3->setFont(font1);
+        pushButton_3->setFont(font2);
 
         horizontalLayout_2->addWidget(pushButton_3);
 
@@ -185,6 +190,7 @@ public:
         verticalLayout_8->addLayout(verticalLayout_5);
 
         verticalLayout_7 = new QVBoxLayout();
+        verticalLayout_7->setSpacing(0);
         verticalLayout_7->setObjectName("verticalLayout_7");
         label_3 = new QLabel(MyWidget);
         label_3->setObjectName("label_3");
@@ -207,7 +213,7 @@ public:
 
         btnSetWindowTitle = new QPushButton(frame_3);
         btnSetWindowTitle->setObjectName("btnSetWindowTitle");
-        btnSetWindowTitle->setFont(font1);
+        btnSetWindowTitle->setFont(font2);
 
         horizontalLayout_4->addWidget(btnSetWindowTitle);
 
@@ -216,7 +222,7 @@ public:
 
         btnUpdateWindowIcon = new QPushButton(frame_3);
         btnUpdateWindowIcon->setObjectName("btnUpdateWindowIcon");
-        btnUpdateWindowIcon->setFont(font1);
+        btnUpdateWindowIcon->setFont(font2);
 
         verticalLayout_6->addWidget(btnUpdateWindowIcon);
 

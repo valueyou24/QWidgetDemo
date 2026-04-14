@@ -371,6 +371,9 @@ CMakeFiles/QWidgetDemo.dir/main.cpp.obj: \
  D:/QT/6.8.3/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/QT/6.8.3/mingw_64/include/QtGui/qcursor.h \
  D:/QT/6.8.3/mingw_64/include/QtGui/qbitmap.h \
+ D:/QT/6.8.3/mingw_64/include/QtWidgets/QButtonGroup \
+ D:/QT/6.8.3/mingw_64/include/QtWidgets/qbuttongroup.h \
+ D:\Git\QT_Projects\QWidgetDemo\colorform.h \
  D:/QT/6.8.3/mingw_64/include/QtWidgets/QApplication \
  D:/QT/6.8.3/mingw_64/include/QtWidgets/qapplication.h \
  D:/QT/6.8.3/mingw_64/include/QtCore/qcoreapplication.h \

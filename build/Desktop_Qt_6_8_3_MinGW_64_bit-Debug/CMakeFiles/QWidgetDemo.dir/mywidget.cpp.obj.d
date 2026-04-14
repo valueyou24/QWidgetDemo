@@ -371,6 +371,9 @@ CMakeFiles/QWidgetDemo.dir/mywidget.cpp.obj: \
  D:/QT/6.8.3/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/QT/6.8.3/mingw_64/include/QtGui/qcursor.h \
  D:/QT/6.8.3/mingw_64/include/QtGui/qbitmap.h \
+ D:/QT/6.8.3/mingw_64/include/QtWidgets/QButtonGroup \
+ D:/QT/6.8.3/mingw_64/include/QtWidgets/qbuttongroup.h \
+ D:\Git\QT_Projects\QWidgetDemo\colorform.h \
  D:/Git/QT_Projects/QWidgetDemo/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/QWidgetDemo_autogen/include/ui_mywidget.h \
  D:/QT/6.8.3/mingw_64/include/QtCore/QVariant \
  D:/QT/6.8.3/mingw_64/include/QtCore/qvariant.h \
@@ -417,4 +420,5 @@ CMakeFiles/QWidgetDemo.dir/mywidget.cpp.obj: \
  D:/QT/6.8.3/mingw_64/include/QtWidgets/QSpacerItem \
  D:/QT/6.8.3/mingw_64/include/QtWidgets/qlayoutitem.h \
  D:/QT/6.8.3/mingw_64/include/QtWidgets/QVBoxLayout \
- D:/QT/6.8.3/mingw_64/include/QtWidgets/QWidget
+ D:/QT/6.8.3/mingw_64/include/QtWidgets/QWidget \
+ D:\Git\QT_Projects\QWidgetDemo\fontform.h

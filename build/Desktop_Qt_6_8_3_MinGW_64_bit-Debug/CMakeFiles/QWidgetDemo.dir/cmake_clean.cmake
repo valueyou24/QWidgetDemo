@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/QWidgetDemo.dir/QWidgetDemo_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/QWidgetDemo.dir/QWidgetDemo_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/QWidgetDemo.dir/colorform.cpp.obj"
+  "CMakeFiles/QWidgetDemo.dir/colorform.cpp.obj.d"
+  "CMakeFiles/QWidgetDemo.dir/fontform.cpp.obj"
+  "CMakeFiles/QWidgetDemo.dir/fontform.cpp.obj.d"
   "CMakeFiles/QWidgetDemo.dir/main.cpp.obj"
   "CMakeFiles/QWidgetDemo.dir/main.cpp.obj.d"
   "CMakeFiles/QWidgetDemo.dir/mywidget.cpp.obj"

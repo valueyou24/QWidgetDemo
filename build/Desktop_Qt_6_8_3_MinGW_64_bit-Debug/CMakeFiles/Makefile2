@@ -83,16 +83,16 @@ clean: CMakeFiles/QWidgetDemo_autogen.dir/clean
 # Target rules for target CMakeFiles/QWidgetDemo.dir
 
 # All Build rule for target.
-CMakeFiles/QWidgetDemo.dir/all: CMakeFiles/QWidgetDemo_autogen_timestamp_deps.dir/all
 CMakeFiles/QWidgetDemo.dir/all: CMakeFiles/QWidgetDemo_autogen.dir/all
+CMakeFiles/QWidgetDemo.dir/all: CMakeFiles/QWidgetDemo_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QWidgetDemo.dir\build.make CMakeFiles/QWidgetDemo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QWidgetDemo.dir\build.make CMakeFiles/QWidgetDemo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=1,2,3,4 "Built target QWidgetDemo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target QWidgetDemo"
 .PHONY : CMakeFiles/QWidgetDemo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/QWidgetDemo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/QWidgetDemo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : CMakeFiles/QWidgetDemo.dir/rule
@@ -102,10 +102,10 @@ QWidgetDemo: CMakeFiles/QWidgetDemo.dir/rule
 .PHONY : QWidgetDemo
 
 # codegen rule for target.
-CMakeFiles/QWidgetDemo.dir/codegen: CMakeFiles/QWidgetDemo_autogen_timestamp_deps.dir/all
 CMakeFiles/QWidgetDemo.dir/codegen: CMakeFiles/QWidgetDemo_autogen.dir/all
+CMakeFiles/QWidgetDemo.dir/codegen: CMakeFiles/QWidgetDemo_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QWidgetDemo.dir\build.make CMakeFiles/QWidgetDemo.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target QWidgetDemo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target QWidgetDemo"
 .PHONY : CMakeFiles/QWidgetDemo.dir/codegen
 
 # clean rule for target.
@@ -152,7 +152,7 @@ CMakeFiles/QWidgetDemo_autogen_timestamp_deps.dir/clean:
 CMakeFiles/QWidgetDemo_autogen.dir/all: CMakeFiles/QWidgetDemo_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QWidgetDemo_autogen.dir\build.make CMakeFiles/QWidgetDemo_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QWidgetDemo_autogen.dir\build.make CMakeFiles/QWidgetDemo_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=5 "Built target QWidgetDemo_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=7 "Built target QWidgetDemo_autogen"
 .PHONY : CMakeFiles/QWidgetDemo_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -169,7 +169,7 @@ QWidgetDemo_autogen: CMakeFiles/QWidgetDemo_autogen.dir/rule
 # codegen rule for target.
 CMakeFiles/QWidgetDemo_autogen.dir/codegen: CMakeFiles/QWidgetDemo_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QWidgetDemo_autogen.dir\build.make CMakeFiles/QWidgetDemo_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=5 "Finished codegen for target QWidgetDemo_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\CMakeFiles --progress-num=7 "Finished codegen for target QWidgetDemo_autogen"
 .PHONY : CMakeFiles/QWidgetDemo_autogen.dir/codegen
 
 # clean rule for target.

@@ -223,6 +223,54 @@ QWidgetDemo_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QWidgetDemo.dir\build.make CMakeFiles/QWidgetDemo.dir/QWidgetDemo_autogen/mocs_compilation.cpp.s
 .PHONY : QWidgetDemo_autogen/mocs_compilation.cpp.s
 
+colorform.obj: colorform.cpp.obj
+.PHONY : colorform.obj
+
+# target to build an object file
+colorform.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QWidgetDemo.dir\build.make CMakeFiles/QWidgetDemo.dir/colorform.cpp.obj
+.PHONY : colorform.cpp.obj
+
+colorform.i: colorform.cpp.i
+.PHONY : colorform.i
+
+# target to preprocess a source file
+colorform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QWidgetDemo.dir\build.make CMakeFiles/QWidgetDemo.dir/colorform.cpp.i
+.PHONY : colorform.cpp.i
+
+colorform.s: colorform.cpp.s
+.PHONY : colorform.s
+
+# target to generate assembly for a file
+colorform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QWidgetDemo.dir\build.make CMakeFiles/QWidgetDemo.dir/colorform.cpp.s
+.PHONY : colorform.cpp.s
+
+fontform.obj: fontform.cpp.obj
+.PHONY : fontform.obj
+
+# target to build an object file
+fontform.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QWidgetDemo.dir\build.make CMakeFiles/QWidgetDemo.dir/fontform.cpp.obj
+.PHONY : fontform.cpp.obj
+
+fontform.i: fontform.cpp.i
+.PHONY : fontform.i
+
+# target to preprocess a source file
+fontform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QWidgetDemo.dir\build.make CMakeFiles/QWidgetDemo.dir/fontform.cpp.i
+.PHONY : fontform.cpp.i
+
+fontform.s: fontform.cpp.s
+.PHONY : fontform.s
+
+# target to generate assembly for a file
+fontform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QWidgetDemo.dir\build.make CMakeFiles/QWidgetDemo.dir/fontform.cpp.s
+.PHONY : fontform.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -289,6 +337,12 @@ help:
 	@echo ... QWidgetDemo_autogen/mocs_compilation.obj
 	@echo ... QWidgetDemo_autogen/mocs_compilation.i
 	@echo ... QWidgetDemo_autogen/mocs_compilation.s
+	@echo ... colorform.obj
+	@echo ... colorform.i
+	@echo ... colorform.s
+	@echo ... fontform.obj
+	@echo ... fontform.i
+	@echo ... fontform.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

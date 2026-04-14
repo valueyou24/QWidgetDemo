@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/QWidgetDemo_autogen"
+  "QWidgetDemo_autogen/include/ui_colorform.h"
+  "QWidgetDemo_autogen/include/ui_fontform.h"
   "QWidgetDemo_autogen/include/ui_mywidget.h"
   "QWidgetDemo_autogen/mocs_compilation.cpp"
   "QWidgetDemo_autogen/timestamp"

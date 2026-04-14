@@ -21,11 +21,15 @@
   <layout class="QVBoxLayout" name="verticalLayout_8">
    <item>
     <layout class="QVBoxLayout" name="verticalLayout_3">
+     <property name="spacing">
+      <number>0</number>
+     </property>
      <item>
       <widget class="QLabel" name="label">
        <property name="font">
         <font>
          <pointsize>14</pointsize>
+         <bold>true</bold>
         </font>
        </property>
        <property name="text">
@@ -92,11 +96,15 @@
    </item>
    <item>
     <layout class="QVBoxLayout" name="verticalLayout_5">
+     <property name="spacing">
+      <number>0</number>
+     </property>
      <item>
       <widget class="QLabel" name="label_2">
        <property name="font">
         <font>
          <pointsize>14</pointsize>
+         <bold>true</bold>
         </font>
        </property>
        <property name="text">
@@ -167,11 +175,15 @@
    </item>
    <item>
     <layout class="QVBoxLayout" name="verticalLayout_7">
+     <property name="spacing">
+      <number>0</number>
+     </property>
      <item>
       <widget class="QLabel" name="label_3">
        <property name="font">
         <font>
          <pointsize>14</pointsize>
+         <bold>true</bold>
         </font>
        </property>
        <property name="text">

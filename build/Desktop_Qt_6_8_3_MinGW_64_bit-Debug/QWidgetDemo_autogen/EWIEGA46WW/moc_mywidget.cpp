@@ -37,7 +37,15 @@ struct qt_meta_tag_ZN8MyWidgetE_t {};
 
 #ifdef QT_MOC_HAS_STRINGDATA
 static constexpr auto qt_meta_stringdata_ZN8MyWidgetE = QtMocHelpers::stringData(
-    "MyWidget"
+    "MyWidget",
+    "onBtnGroupAlignmentClicked",
+    "",
+    "id",
+    "onFontChanged",
+    "bold",
+    "italic",
+    "underline",
+    "onColorChange"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -49,12 +57,22 @@ Q_CONSTINIT static const uint qt_meta_data_ZN8MyWidgetE[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       0,    0, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
        0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    1,   32,    2, 0x08,    1 /* Private */,
+       4,    3,   35,    2, 0x08,    3 /* Private */,
+       8,    1,   42,    2, 0x08,    7 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void, QMetaType::Int,    3,
+    QMetaType::Void, QMetaType::Bool, QMetaType::Bool, QMetaType::Bool,    5,    6,    7,
+    QMetaType::Void, QMetaType::Int,    3,
 
        0        // eod
 };
@@ -67,7 +85,18 @@ Q_CONSTINIT const QMetaObject MyWidget::staticMetaObject = { {
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_tag_ZN8MyWidgetE_t,
         // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<MyWidget, std::true_type>
+        QtPrivate::TypeAndForceComplete<MyWidget, std::true_type>,
+        // method 'onBtnGroupAlignmentClicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'onFontChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
+        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
+        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
+        // method 'onColorChange'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>
     >,
     nullptr
 } };
@@ -75,10 +104,14 @@ Q_CONSTINIT const QMetaObject MyWidget::staticMetaObject = { {
 void MyWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<MyWidget *>(_o);
-    (void)_t;
-    (void)_c;
-    (void)_id;
-    (void)_a;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: _t->onBtnGroupAlignmentClicked((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 1: _t->onFontChanged((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<bool>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<bool>>(_a[3]))); break;
+        case 2: _t->onColorChange((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        default: ;
+        }
+    }
 }
 
 const QMetaObject *MyWidget::metaObject() const
@@ -97,6 +130,18 @@ void *MyWidget::qt_metacast(const char *_clname)
 int MyWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 3)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 3;
+    }
+    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 3)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 3;
+    }
     return _id;
 }
 QT_WARNING_POP

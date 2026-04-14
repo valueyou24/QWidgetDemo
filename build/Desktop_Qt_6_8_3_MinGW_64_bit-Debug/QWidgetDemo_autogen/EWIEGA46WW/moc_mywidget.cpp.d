@@ -1,5 +1,6 @@
 D:/Git/QT_Projects/QWidgetDemo/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/QWidgetDemo_autogen/EWIEGA46WW/moc_mywidget.cpp: D:/Git/QT_Projects/QWidgetDemo/mywidget.h \
   D:/Git/QT_Projects/QWidgetDemo/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/QWidgetDemo_autogen/moc_predefs.h \
+  D:/Git/QT_Projects/QWidgetDemo/colorform.h \
   D:/QT/6.8.3/mingw_64/include/QtCore/q20functional.h \
   D:/QT/6.8.3/mingw_64/include/QtCore/q20iterator.h \
   D:/QT/6.8.3/mingw_64/include/QtCore/q20memory.h \
@@ -146,7 +147,9 @@ D:/Git/QT_Projects/QWidgetDemo/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/QWidget
   D:/QT/6.8.3/mingw_64/include/QtGui/qtransform.h \
   D:/QT/6.8.3/mingw_64/include/QtGui/qwindowdefs.h \
   D:/QT/6.8.3/mingw_64/include/QtGui/qwindowdefs_win.h \
+  D:/QT/6.8.3/mingw_64/include/QtWidgets/QButtonGroup \
   D:/QT/6.8.3/mingw_64/include/QtWidgets/QWidget \
+  D:/QT/6.8.3/mingw_64/include/QtWidgets/qbuttongroup.h \
   D:/QT/6.8.3/mingw_64/include/QtWidgets/qsizepolicy.h \
   D:/QT/6.8.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
   D:/QT/6.8.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \

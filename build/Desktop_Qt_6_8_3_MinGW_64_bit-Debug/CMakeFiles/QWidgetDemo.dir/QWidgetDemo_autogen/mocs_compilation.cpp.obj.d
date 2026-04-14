@@ -1,7 +1,7 @@
 CMakeFiles/QWidgetDemo.dir/QWidgetDemo_autogen/mocs_compilation.cpp.obj: \
  D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\QWidgetDemo_autogen\mocs_compilation.cpp \
- D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\QWidgetDemo_autogen\EWIEGA46WW/moc_mywidget.cpp \
- D:/Git/QT_Projects/QWidgetDemo/mywidget.h \
+ D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\QWidgetDemo_autogen\EWIEGA46WW/moc_colorform.cpp \
+ D:/Git/QT_Projects/QWidgetDemo/colorform.h \
  D:/QT/6.8.3/mingw_64/include/QtWidgets/QWidget \
  D:/QT/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
  D:/QT/6.8.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -372,4 +372,11 @@ CMakeFiles/QWidgetDemo.dir/QWidgetDemo_autogen/mocs_compilation.cpp.obj: \
  D:/QT/6.8.3/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/QT/6.8.3/mingw_64/include/QtGui/qcursor.h \
  D:/QT/6.8.3/mingw_64/include/QtGui/qbitmap.h \
- D:/QT/6.8.3/mingw_64/include/QtCore/qtmochelpers.h
+ D:/QT/6.8.3/mingw_64/include/QtWidgets/QButtonGroup \
+ D:/QT/6.8.3/mingw_64/include/QtWidgets/qbuttongroup.h \
+ D:/QT/6.8.3/mingw_64/include/QtCore/qtmochelpers.h \
+ D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\QWidgetDemo_autogen\EWIEGA46WW/moc_fontform.cpp \
+ D:/Git/QT_Projects/QWidgetDemo/fontform.h \
+ D:\Git\QT_Projects\QWidgetDemo\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\QWidgetDemo_autogen\EWIEGA46WW/moc_mywidget.cpp \
+ D:/Git/QT_Projects/QWidgetDemo/mywidget.h \
+ D:/Git/QT_Projects/QWidgetDemo/colorform.h
