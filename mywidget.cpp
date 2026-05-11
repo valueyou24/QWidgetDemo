@@ -3,6 +3,9 @@
 #include "fontform.h"
 #include "colorform.h"
 
+
+QStringList myicons = {":/res/star1.png",":/res/star2.png",":/res/star3.png",":/res/star4.png"};
+
 MyWidget::MyWidget(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::MyWidget)
@@ -124,7 +127,10 @@ void MyWidget::on_btnSetWindowTitle_clicked()
 
 void MyWidget::on_btnUpdateWindowIcon_clicked()
 {
-    qDebug() << "test";
-    this->setWindowIcon(QIcon(":/res/star1.png"));
+    static int index = 0;
+
+    this->setWindowIcon(QIcon(myicons[index++ % 4]));
+
+    index %= 4;
 }
 
