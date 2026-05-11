@@ -1,0 +1,52 @@
+# Build directories
+build/
+build-*/
+*.pro.user
+*.user
+
+# Qt Creator files
+.qtcreator/
+*.qmlproject.user
+*.qbs.user
+*.qbs.cache
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.so
+*.dylib
+
+# Qt generated files
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*_autogen/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+install_manifest.txt
+
+# Clangd cache
+.qtc_clangd/
+
+# Debug symbols
+*.pdb
+*.dSYM/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

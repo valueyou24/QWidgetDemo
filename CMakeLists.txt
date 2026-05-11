@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.19)
 project(QWidgetDemo LANGUAGES CXX)
 
+set(CMAKE_AUTORCC ON) #开启这个后QT才会编译处理res相关的文件
+
 find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets)
 
 qt_standard_project_setup()

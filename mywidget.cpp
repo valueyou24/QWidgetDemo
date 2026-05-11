@@ -88,3 +88,43 @@ void MyWidget::onColorChange(int id)
         ui->lineEditTime->setStyleSheet("QLineEdit{color:blue}");
     }
 }
+
+void MyWidget::on_btnGetWindowsGeometry_clicked()
+{
+    QRect rect = this->geometry();
+    QPoint topleft = rect.topLeft();
+    int width = rect.width();
+    int height = rect.height();
+
+    QString s = QString("左上角(%1,%2),宽高(%3*%4)").arg(topleft.x()).arg(topleft.y()).arg(width).arg(height);
+
+    ui->lineEditWindowsGeometry->setText(s);
+
+
+}
+
+
+void MyWidget::on_btnResize_clicked()
+{
+    this->resize(400,400);
+}
+
+
+void MyWidget::on_pushButton_3_clicked()
+{
+    this->move(100,100);
+}
+
+
+void MyWidget::on_btnSetWindowTitle_clicked()
+{
+    this->setWindowTitle(ui->lineEditWindowTitle->text().trimmed());
+}
+
+
+void MyWidget::on_btnUpdateWindowIcon_clicked()
+{
+    qDebug() << "test";
+    this->setWindowIcon(QIcon(":/res/star1.png"));
+}
+
